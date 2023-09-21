@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'market.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+     'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'U8e3Rn6dXk29J4pdKhe0',
+        'HOST': 'containers-us-west-47.railway.app',  
+        'PORT': '7164',   
     }
 }
 
